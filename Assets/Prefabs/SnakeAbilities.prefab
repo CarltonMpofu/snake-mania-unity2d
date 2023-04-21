@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6354219373904463655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6354219373904463649}
+  - component: {fileID: 6354219373904463648}
+  m_Layer: 0
+  m_Name: SnakeAbilities
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6354219373904463649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354219373904463655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6354219373904463648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354219373904463655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37034b86e0138614e8ba5640d4e79c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodParent: {fileID: 487574042610261764, guid: 28c4a1567a5a9d94ca34bbca86e394fd, type: 3}
+  appleFoodGameObject: {fileID: 8213170031102404628, guid: 59a3d098fc7e48c4381215086ea28969, type: 3}
+  grapeFoodGameObject: {fileID: 4194374822272167319, guid: 4e298d72768eafd47bce1c8f81c99105, type: 3}
+  largeFoodGameObject: {fileID: 501013765023224067, guid: 8426f36670899ce418c26a45d6a6082c, type: 3}
+  pinkFoodGameOject: {fileID: 4813437002698528915, guid: 28c4a1567a5a9d94ca34bbca86e394fd, type: 3}
+  chainFoodGameObject: {fileID: 6409576286292877644, guid: c2934a0eb2a939440a39bde136f75d8c, type: 3}
+  topBorder: {fileID: 0}
+  bottomBorder: {fileID: 0}
+  leftBorder: {fileID: 0}
+  rightBorder: {fileID: 0}
+  chainTimerConstant: 4
+  largeFoodTimerConstant: 5

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2564479836503647845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2564479836503647844}
+  - component: {fileID: 2564479836503647851}
+  m_Layer: 0
+  m_Name: Snake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2564479836503647844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564479836503647845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2564479836503647851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564479836503647845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71aa0dedbe56564eabad7aad496202f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snakeParent: {fileID: 2564479836503647844}
+  snakeSpeed: 0.2
+  decreaseSnakeSpeedByValue: 0.0028
+  headRightPrefab: {fileID: 6842081605676285493, guid: 86955ddfeb3313549b244cfde277d8a2, type: 3}
+  headLeftPrefab: {fileID: 5275447129265778690, guid: 401f382a4f44e8c42b69a3e5700a1255, type: 3}
+  headUpPrefab: {fileID: 3976923513433434276, guid: 9bc7b2df103f7ab4bb98c364db456a65, type: 3}
+  headDownPrefab: {fileID: 8765871835160093033, guid: c5bcea504fb217548805185e938b9cea, type: 3}
+  bodyBottomLeftPrefab: {fileID: 7430094087580211058, guid: f2452ad3a10dc2741b44f7527e59d7e1, type: 3}
+  bodyBottomRightPrefab: {fileID: 7131518964900011216, guid: 3b2815356839fee4da174ade1de89b76, type: 3}
+  bodyTopLeftPrefab: {fileID: 2257568046096689955, guid: e0db903f533e541428174fcfc0b285f1, type: 3}
+  bodyTopRightPrefab: {fileID: 8144286968813825272, guid: 823a3c5146233ab4a9833f173cd6b6ed, type: 3}
+  bodyHorizontalPrefab: {fileID: 5153628911734706970, guid: a67a244e5bedb3e40a2a76b153403191, type: 3}
+  bodyVerticalPrefab: {fileID: 7125169310972778199, guid: be9330f0ce928d84db52ca423cc4aeb1, type: 3}
+  tailRightPrefab: {fileID: 1045220893990034849, guid: d69beca6d290def4a9ffc6dcbb7596c6, type: 3}
+  tailLeftPrefab: {fileID: 6922453354826461008, guid: 07ae318cec55cc842a6343b21d2fc8e8, type: 3}
+  tailUpPrefab: {fileID: 1703574100196044833, guid: 0a71aac5ac319cf41b4134470a35de2d, type: 3}
+  tailDownPrefab: {fileID: 7759398443517969596, guid: d366681732efbf64382f7f7579d14851, type: 3}
+  borderTop: {fileID: 0}
+  borderBottom: {fileID: 0}
+  borderRight: {fileID: 0}
+  borderLeft: {fileID: 0}
